@@ -6,7 +6,7 @@ phrase = phrase.trim();
 
 console.log(phrase.length);
 
-console.log(phrase[phrase.length - 1]);
+console.log(phrase.charAt(phrase.length - 1));;
 
 phrase = phrase.replace("Bonjour ", "");
 
@@ -15,7 +15,6 @@ phrase = "Bonjour " + phrase;
 phrase = phrase.replace(/tout le monde/gi, "");
 
 phrase = phrase.replace("Bonjour", "string"); 
-
 
 
 console.log(Math.random());
