@@ -14,7 +14,9 @@ phrase = "Bonjour " + phrase;
 
 phrase = phrase.replace(/tout le monde/gi, "");
 
-phrase = phrase.replace("Bonjour", "string");
+phrase = phrase.replace("Bonjour", "string"); 
+
+
 
 console.log(Math.random());
 
